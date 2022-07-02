@@ -1,0 +1,59 @@
+.image {
+  background-image: url("../imgs/img\ \(2\).jpg");
+  align-items: center;
+}
+
+.image__slogan {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.button-main {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem 1rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.image__slogan h1 {
+  color: white;
+  width: 80vw;
+  font-size: 70px;
+  height: 10vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.image__slogan p {
+  margin-top: 3rem;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.upper-card-contenedor {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lower-card-contenedor {
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+}
+
+.card__container h1 {
+  color: #04d1cf;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 40px;
+}
+
+.service-img {
+  width: 100%;
+}

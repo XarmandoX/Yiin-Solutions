@@ -1,0 +1,78 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.image {
+  background-image: url("../imgs/img\ \(3\).jpg");
+}
+
+.hero-info__container {
+  height: 80vh;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.title {
+  text-align: left;
+  color: white;
+  font-size: 48px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero-info p {
+  text-align: right;
+  font-size: 20px;
+  font-weight: 100;
+  color: white;
+}
+
+.button-main {
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.service-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.service-container h1 {
+  color: #04d1cf;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 80%;
+  margin-bottom: 1rem;
+  background-color: #f4f4f4;
+}
+
+.card p {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.card ul li {
+  text-align: left;
+}
+
+.footer {
+  margin: 0;
+}

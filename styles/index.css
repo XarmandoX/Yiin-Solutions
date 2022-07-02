@@ -1,0 +1,117 @@
+.image__slogan {
+  background: linear-gradient(rgba(0, 255, 251, 0.699), transparent);
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  color: white;
+}
+
+.image__slogan h1 {
+  transform: translateY(100%);
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.informacion {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.informacion div {
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.consultoring {
+  background-color: #04d2ce;
+}
+
+.consultoring h1,
+.consultoring h2,
+.consultoring h3,
+.project h4,
+.project a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.consultoring h1 {
+  color: white;
+  font-size: 28px;
+}
+
+.consultoring h2 {
+  font-size: 44px;
+  color: #391acc;
+}
+
+.consultoring h3 {
+  font-style: 36px;
+  color: #391acc;
+  font-weight: 300;
+}
+
+.project {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.project h4 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.inteligencia-info-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.inteligencia-info-container div {
+  flex: 1;
+}
+
+.inteligencia-info-container img {
+  margin: 1rem;
+}
+
+.inteligencia-info__text {
+  text-align: right !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.inteligencia-info__text h1,
+.inteligencia-info__text h2,
+.inteligencia-info__text h3 {
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.inteligencia-info__text h1 {
+  text-transform: uppercase;
+  color: #898989;
+}
+
+.inteligencia-info__text h2 {
+  color: #04d2ce;
+}
+
+.inteligencia-info__text h3 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.inteligencia-info__text a {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 3rem;
+}
